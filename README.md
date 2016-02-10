@@ -1,1 +1,1 @@
-# TWRP for the Samsung Galaxy SM-A800I
+# TWRP device tree for the Samsung Galaxy SM-A800I
