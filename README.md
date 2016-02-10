@@ -1,1 +1,1 @@
-# TWRP_Samsung_Galaxy_a8hplte.
+# TWRP for the Samsung Galaxy SM-A800I
