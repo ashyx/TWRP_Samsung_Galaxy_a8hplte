@@ -55,3 +55,17 @@ TW_HAS_DOWNLOAD_MODE := true
 #speed up wipe
 BOARD_SUPPRESS_SECURE_ERASE := true
 COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
+
+# SeLinux
+BOARD_SEPOLICY_DIRS := \
+	device/samsung/a8hplte/sepolicy
+
+BOARD_SEPOLICY_UNION := \
+	app.te \
+	cpboot-daemon.te \
+	domain.te \
+	exyrngd.te \
+	file_contexts \
+	file.te \
+	macloader.te \
+	ueventd.te
